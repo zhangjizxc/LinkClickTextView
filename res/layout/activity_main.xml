@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:linkclick="http://schemas.android.com/apk/res/com.test.zhang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QzonePluginProxyActivity" >
+
+    <com.zhang.linkclick.LinkClickTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="255.0dip"
+        android:minWidth="52.0dip"
+        android:autoLink="all"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="@string/hello_world"
+        android:textColorLink="@color/compose_message_link_color"
+        android:background="@drawable/receive_message_block"
+        android:textSize="15sp"
+        linkclick:textColorLinkClick="@color/white" />
+</RelativeLayout>
